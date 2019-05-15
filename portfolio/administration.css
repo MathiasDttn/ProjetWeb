@@ -1,0 +1,271 @@
+body {
+	
+	background-color:#77AAAD;
+	
+	
+
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(fond3.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+      	background-size: cover;
+
+}
+
+a{
+	color:white;
+	border-radius: 8px;
+	border: none;
+}
+
+nav  li{ 
+	
+	display : inline-block;
+	width: 200px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#menu_horizontal{
+	text-align: center;
+
+}
+
+#naissance{
+	float: right;
+	margin-right: 300px; 
+}
+
+#nom{
+	float: left;
+	margin-left: 300px; 
+}
+
+#études{
+	display: inline-block;
+	size:100px;
+}
+
+
+
+
+div {
+	text-align: center;
+}
+
+
+ nav a:hover{
+	background-color: #FFFFFF;
+	color:black;
+}
+
+input[type="text"]{
+	border-radius: 5px;
+	border: none;
+	height: 60px;
+	width: 350px;
+	margin-bottom: 60px;
+}
+
+
+
+
+input{
+	margin-top: 10px;
+}
+
+h4{
+	color: white;
+}
+
+input[type="file"]{
+	padding-bottom: 20px;
+	color:white;
+}
+
+
+
+textarea {
+	border-radius: 5px;
+	border: none;
+}
+
+
+
+input[type="submit"]{
+	border-radius: 2px;
+	color: white;
+	border: none;
+	background-color:#58D3F7;
+	height: 30px;
+	width: 150px;
+
+}
+
+input[type="submit"]:hover{
+	background-color: #81DAF5;
+	cursor: pointer;
+}
+
+
+
+@media(max-width: 1080px){
+
+
+
+
+nav  li{ 
+	
+	display : inline-block;
+	width: 150px;
+	height: 25px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 1.0em;
+}
+
+h1 {
+	padding-top: 120px;
+	color: white;
+	text-align: center;
+	padding-bottom: 200px;
+	font-size: 1.3em;
+}
+
+input[type="email"]{
+	border-radius: 5px;
+	border: none;
+	height: 25px;
+	width: 175px;
+	margin-bottom: 10px;
+}
+
+input{
+	margin-top: 5px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	padding-top: 60px;
+}	
+
+input[type="submit"]{
+	border-radius: 2px;
+	color: white;
+	border: none;
+	background-color:#58D3F7;
+	height: 25px;
+	width: 120px;
+}
+
+#p2{
+	text-align: center;
+	font-size: 1.1em;
+	color: white;
+	padding-bottom: 105px;
+	padding-top: 55px;
+}
+
+#p1{
+	text-align: center;
+	font-size: 1.1em;
+	color: white;
+	padding-bottom: 15px;
+	padding-top: 75px;
+}
+
+#p3{
+	text-align: center;
+	font-size: 1.1em;
+	color: white;
+	padding-bottom: 5px;
+	padding-top: 75px;
+}
+
+
+}
+
+
+@media (max-width: 768px){
+
+
+
+nav  li{ 
+	
+	display : inline-block;
+	width: 100px;
+	height: 15px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 1.0em;
+}
+
+h1 {
+	padding-top: 100px;
+	color: white;
+	text-align: center;
+	padding-bottom: 150px;
+	font-size: 1.1em;
+}
+
+input[type="email"]{
+	border-radius: 5px;
+	border: none;
+	height: 20px;
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+input{
+	margin-top: 5px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+}	
+
+input[type="submit"]{
+	border-radius: 2px;
+	color: white;
+	border: none;
+	background-color:#58D3F7;
+	height: 25px;
+	width: 120px;
+}
+
+#p2{
+	text-align: center;
+	font-size: 1.0em;
+	color: white;
+	padding-bottom: 90px;
+	padding-top: 45px;
+}
+
+#p1{
+	text-align: center;
+	font-size: 1.0em;
+	color: white;
+	padding-bottom: 15px;
+	padding-top: 70px;
+}
+
+#p3{
+	text-align: center;
+	font-size: 1.0em;
+	color: white;
+	padding-bottom: 5px;
+	padding-top: 70px;
+}
+
+
+}
+ 

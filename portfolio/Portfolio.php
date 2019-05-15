@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+     <link rel="stylesheet" href="portfolio2.css"/>
+	 <meta charset = "utf-8"/>
+	 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="scroll-down.js"></script>
+
+	 <title> Mon portfolio </title>
+
+</head>
+
+<body>
+
+	<div id="div_menu">
+		<nav>
+	<ul id="menu_horizontal">
+	     <li><a href="#menu_horizontal">Home</a></li>
+         <li><a href="#aboutme">About</a></li>
+         <li><a href="#interets">Experiences</a></li>
+         <li><a href="#me_contacter">Contact me</a></li>
+         <li><a href="administration.html">Administration</a></li>
+     </ul>
+</nav>
+
+</div>	
+<h1 id="mobile">Welcome to my portfolio. Welcome to my universe.</h1>
+
+
+<div>
+	<div>
+		<a class="ct-btn-scroll ct-js-btn-scroll" href="#div_menu" id="up1"><img alt="Arrow Down Icon" src="arrow-down.png"></a>
+	</div>
+		
+		<a class="ct-btn-scroll ct-js-btn-scroll" href="#aboutme"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+</div>
+
+
+
+
+<h2 id="aboutme">À propos de moi</h2>
+<p id="p1">	Prénom: Mathias</br>
+	Nom: Dattin</br>
+	Date de naissance: 05/06/2000</br>
+	Lieu de naissance: Limoges</br>
+	Études: Bac STI2D SIN, étudiants à Ynov Nantes en première année Ingésup</br>
+	Centres d'intérêts: Sports(Tennis, boxe), musique(percussions), voyager à l'étranger, jeux vidéos, informatique</br>
+	Projet pour l'avenir: Travailler dans la création de site web</br>
+
+</p>
+<div>
+<img src="moi.png" id="moi">
+</div>
+<div>
+	<a class="ct-btn-scroll ct-js-btn-scroll" href="#interets"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+</div>
+
+<h2 id="interets">Mes expériences et compétences</h2>
+<p id="p2">Job d'été: 1 mois d'entretien de piscine municipale</br>Stage: agence imobilière</br>Différent langage de programmation</br>HTML/CSS</br>C</br>Python</br>Arduino</br>Bonne entente, travail d'équipe, efficacité, ponctualité, concentration</p>
+
+<div>
+	<a class="ct-btn-scroll ct-js-btn-scroll" href="#me_contacter"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+</div>
+
+
+
+<h2 id="me_contacter">Me contacter</h2>
+
+
+
+<div>
+<input type="email" name="email" placeholder="Votre email" id="email">
+</div>
+<div>
+<textarea name="message" id="message" rows="15" cols="50" placeholder="Entrez votre message"></textarea>
+</div>
+<div>
+	<form method="post" action="traitement.php">
+
+<input type="submit" name="envoyer">
+</form>
+</div>
+<p id="p3"><b>Adresse mail</b>: dattin.mathias@ynov.com</br><b>Adresse</b>: 32 rue Maréchal Joffre, 44000, Nantes</br><b>Numéro de téléphone</b>: 06 46 28 56 04</p>
+
+</body>
+
+</html>
+
+
+
+
+
+	
+	
